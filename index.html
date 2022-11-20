@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>ROTPO</title>
+    <link rel="icon" href="images/faviconn.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&display=swap" rel="stylesheet">
+
+ <!-- jQuery-->
+
+ 
+
+<script src="app.js" defer></script>
+  </head>
+<div class="navHero">
+    <!-- navBar -->
+    <nav>
+      <div class="logo">
+        <h4>rotopo</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">servicii</a> </li>
+    
+        <li><a href="#">extra</a></li>
+        
+        <li><a href="#">contact</a> </li>
+          
+      </ul>
+    
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+
+      </div>
+      
+    </nav>
+   
+    <!--Hero-->
+    <div class="hero">
+      <div class="heroDiv column61">
+       <h1>o firmă de topografie din Deva, Hunedoara</h1>
+       <p>Suntem o echipă ce oferă servicii de topografie, geodezie, cartografie, cadastru, precum
+        si identificari subterane.
+       </p>
+     
+        <div class="buttons">
+           <button class="buttonTelefon" type="button" ><a href="tel:+0730807199"> telefon</a></button>
+           <button class="buttonLocatie" type="button" ><a href="https://goo.gl/maps/zt6npsiaYsqphw4V7"> locație</a></button>
+        </div>
+      </div>
+      <div class="column62 heroImage">
+        <img src="images/cubes.png" style="width:100% ">
+      </div>
+    </div>
+
+
+</div>
+<!--Buline Fundal-->
+<div class="circle"></div>
+<div class="circle2"></div>
+<div class="circle3"></div>
+
+</div>
+
+<!--services-->
+<h1 class="headingServices" id="services">serviciile noastre:</h1>
+<div class="services">
+   <div class="serviceRow">
+    <div>
+      <h2>lucrari de cadastru</h2>
+      <p> Intabulare,  parcelare, comasare, notarea/inscrierea/radierea unei constructii, apartamentarea/reapartamentarea, identificare si suprapunere cu date de Carte Funciara veche, trasare puncte–limita proprietate
+      </p>
+    </div>
+
+  </div>
+   <div class="serviceRow"> 
+    <h2>lucrari de topografie</h2>
+    <p> Ridicari topografice-Planuri de situatie pentru imobile, drumuri, retele edilitare(aviz tehnic–CU, PAC, PUZ, PUD, PUG), trasare elemente de constructii.
+         trasari constructii</p>
+
+   </div>
+   <div class="serviceRow"> 
+    <h2>fotogrametrie-georeferentiere-ortofotoplan</h2>
+    <p>realizam ortofotoplanuri de inalta precizie in format digital si/sau analogic cu ajutorul dronei si softului profesionale detinute</p>
+   </div>
+
+   <div class="serviceRow"> 
+    <h2 >identificari retele subterane</h2>
+    <p>cu ajutorul aparaturilor profesionale pe care le detinem putem identifica retele subterane de gaz, curent, canalizare, apa</p>
+   </div>
+   <div class="circle4"></div>
+   <div class="circle5"></div>
+   <div class="circle6"></div>
+
+  </div>
+  <!--counter-->
+  <div class="counter-up">
+     <div class="first-box">
+         <div class="counter" data-target="17">17</div>
+         <div>+</div>
+     </div>
+     <div class="second-box">
+         ani de experienta in domeniu
+     </div>
+  </div>
+
+  <!--extra-->
+  <div class="extra">
+   <div class="extra-title"></div> 
+    <div class="box">
+      <div class="title"></div>
+      <p></p>
+
+    </div>
+    <div class="box">
+      <div class="title"></div>
+      <p></p>
+    </div>
+  </div>
+<!--contact-->
+
+<!--counter function-->
+<script>
+  $(document).ready(function(){
+      $(".counter").counterUp({
+          delay:100,
+          time:1000
+      });
+  });
+</script>
